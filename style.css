@@ -90,14 +90,14 @@ h2 {
 }
 
 #int {
-    background-color: #cfede8;
- border:1px solid #000000;
-    border-radius: 1rem;
+    /* background-color: #cfede8; */
+ /* border:1px solid #000000; */
+    /* border-radius: 1rem; */
     padding:10px;
-    text-align: left;
+    text-align: center;
     margin: 10px;
-    width: 500px;
-    box-shadow:0px 2px 4px #1f2933;
+    /* width: 500px; */
+    /* box-shadow:0px 2px 4px #1f2933; */
 }
 
 #int p {
@@ -134,12 +134,13 @@ h2 {
 .sec-about {
     font-size: 2rem;
     font-weight: 700;
-    background-color: #2ec4b6;
-    border-radius: 1rem;
+    /* background-color: #2ec4b6; */
+    /* border-radius: 1rem; */
     padding:24px;
     max-width: 200px;
-    box-shadow: 0px 4px 10px #333;
-    text-align: center;
+    /* box-shadow: 0px 4px 10px #333; */
+    text-shadow: 0px 0px 2px #333;
+    /* text-align: center; */
     align-items: center;
 }
 
@@ -399,6 +400,7 @@ legend{
     font-weight: 700;
     font-family: "Saira Condensed";
     font-size: 1.25rem;
+    border-radius: 0rem;
 }
 
 /* PROJECTS */
@@ -426,3 +428,8 @@ th{
     text-align: center;
 } */
 
+.clickdemo {
+    background: rgb(69, 177, 114);
+    color:#ffc411;
+    /* min-width: 1400 px; */
+}
